@@ -1,6 +1,6 @@
 # mui-template
 
-MUI Template.
+[MUI](https://mui.com/) Template.
 
 ## Prerequisites
 
