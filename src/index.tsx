@@ -9,7 +9,9 @@ import { createRoot } from 'react-dom/client';
 
 import App from './components/App';
 
-createRoot(document.getElementById('root')!).render(
+export const root = createRoot(document.getElementById('root')!);
+
+root.render(
   <StrictMode>
     <CssBaseline />
     <App />

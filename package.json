@@ -9,9 +9,12 @@
     "clean": "rm -rf .parcel-cache dist",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
+    "lint:tsc": "tsc --noEmit",
     "postinstall": "husky install",
     "start": "parcel --open",
-    "tsc": "tsc --noEmit"
+    "test": "jest",
+    "test:ci": "CI=true jest test --coverage --colors",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@commitlint/cli": "17.2.0",
