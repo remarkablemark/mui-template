@@ -1,5 +1,5 @@
 name: build
-on: [push, pull_request]
+on: push
 
 jobs:
   build:
@@ -8,8 +8,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -30,9 +28,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn --frozen-lockfile --prefer-offline
-
-      - name: Lint commit message
-        run: npx commitlint --from=HEAD~1
 
       - name: ESLint
         run: npm run lint
