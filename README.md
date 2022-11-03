@@ -5,6 +5,7 @@ MUI Template.
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/)
+- [Yarn 1](https://classic.yarnpkg.com/lang/en/)
 
 ## Install
 
@@ -18,14 +19,14 @@ cd mui-template
 Install the dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the web app in the development mode.
 
@@ -35,7 +36,15 @@ The page will reload if you make edits.
 
 You will also see any errors in the console.
 
-### `npm run build`
+### `yarn lint`
+
+Runs ESLint.
+
+### `yarn test`
+
+Runs Jest tests.
+
+### `yarn build`
 
 Builds the web app for production to the `dist` folder.
 
