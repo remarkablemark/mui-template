@@ -12,7 +12,7 @@ export default function Header() {
       <Container>
         <Toolbar disableGutters sx={{ flexGrow: 1 }}>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Template
+            MUI Template
           </Typography>
 
           <Link
