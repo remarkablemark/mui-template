@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha",
   "description": "MUI Template",
   "author": "Mark <mark@remarkablemark.org>",
-  "source": "public/index.html",
+  "source": "src/index.html",
   "scripts": {
     "build": "parcel build",
     "clean": "rm -rf .parcel-cache dist",
