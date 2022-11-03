@@ -1,11 +1,8 @@
-name: deploy
-on:
-  push:
-    branches:
-      - master
+name: build
+on: pull_request
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -28,12 +25,5 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile --prefer-offline
 
-      - name: Build
-        # run: yarn build -- --public-url https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-        run: yarn build -- --public-url https://remarkablemark.org/${{ github.event.repository.name }}
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: dist
+      - name: Build app
+        run: yarn build
