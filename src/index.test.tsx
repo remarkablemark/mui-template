@@ -1,6 +1,8 @@
+import { act } from '@testing-library/react';
 import type { Root } from 'react-dom/client';
 
 let getElementByIdSpy: jest.SpyInstance;
+let root: Root;
 
 beforeAll(() => {
   const div: HTMLDivElement = document.createElement('div');
@@ -15,8 +17,10 @@ afterAll(() => {
 
 it('renders without crashing', () => {
   expect(getElementByIdSpy).not.toBeCalled();
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const root: Root = require('.').root;
+  act(() => {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    root = require('.').root;
+  });
   expect(getElementByIdSpy).toBeCalledTimes(1);
   expect(getElementByIdSpy).toBeCalledWith('root');
   root.unmount();
