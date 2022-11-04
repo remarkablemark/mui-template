@@ -26,6 +26,13 @@ Language:
 
 - [TypeScript](https://www.typescriptlang.org/)
 
+Hosting:
+
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+  - https://mui-template.pages.dev/
+- [GitHub Pages](https://pages.github.com/)
+  - https://remarkablemark.github.io/mui-template/
+
 </details>
 
 ## Prerequisites
