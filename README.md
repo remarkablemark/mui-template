@@ -1,6 +1,13 @@
 # mui-template
 
-[MUI](https://mui.com/) Template.
+[MUI](https://mui.com/) Template:
+
+- [MUI](https://mui.com/)
+- [React](https://reactjs.org/)
+- [Parcel](https://parceljs.org/)
+- [Jest](https://jestjs.io/)
+- [ESLint](https://eslint.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Prerequisites
 
