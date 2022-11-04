@@ -6,14 +6,21 @@ import '@fontsource/roboto/700.css';
 import CssBaseline from '@mui/material/CssBaseline';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from 'react-router-dom';
 
-import App from './components/App';
+import routes from './routes';
+
+const router = createBrowserRouter(createRoutesFromElements(routes));
 
 export const root = createRoot(document.getElementById('root')!);
 
 root.render(
   <StrictMode>
     <CssBaseline />
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 );

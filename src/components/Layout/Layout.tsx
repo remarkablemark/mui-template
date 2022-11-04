@@ -1,18 +1,16 @@
 import Container from '@mui/material/Container';
-import type { ReactNode } from 'react';
+import { Outlet } from 'react-router-dom';
 
 import Header from '../Header';
 
-interface Props {
-  children: ReactNode;
-}
-
-export default function Layout(props: Props) {
+export default function Layout() {
   return (
     <>
       <Header />
       <br />
-      <Container component="main">{props.children}</Container>
+      <Container component="main">
+        <Outlet />
+      </Container>
     </>
   );
 }
