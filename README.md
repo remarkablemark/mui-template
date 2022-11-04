@@ -1,13 +1,29 @@
 # mui-template
 
-[MUI](https://mui.com/) Template:
+[MUI](https://mui.com/) Template.
+
+<details>
+<summary>Stack</summary>
+
+Libraries:
 
 - [MUI](https://mui.com/)
 - [React](https://reactjs.org/)
+
+Tools:
+
 - [Parcel](https://parceljs.org/)
-- [Jest](https://jestjs.io/)
 - [ESLint](https://eslint.org/)
+
+Testing:
+
+- [Jest](https://jestjs.io/)
+
+Language:
+
 - [TypeScript](https://www.typescriptlang.org/)
+
+</details>
 
 ## Prerequisites
 
