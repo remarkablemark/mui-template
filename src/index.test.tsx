@@ -23,5 +23,7 @@ it('renders without crashing', () => {
   });
   expect(getElementByIdSpy).toBeCalledTimes(1);
   expect(getElementByIdSpy).toBeCalledWith('root');
-  root.unmount();
+  act(() => {
+    root.unmount();
+  });
 });
