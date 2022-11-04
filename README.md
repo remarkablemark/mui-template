@@ -1,5 +1,8 @@
 # mui-template
 
+[![test](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml)
+[![lint](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml)
+
 [MUI](https://mui.com/) Template.
 
 <details>
