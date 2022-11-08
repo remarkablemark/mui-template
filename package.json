@@ -13,7 +13,7 @@
     "postinstall": "husky install",
     "start": "parcel --open",
     "test": "jest",
-    "test:ci": "CI=true jest test --coverage --colors",
+    "test:ci": "CI=true jest --coverage --colors",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
