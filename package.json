@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
-    "@commitlint/config-conventional": "^17.4.3",
+    "@commitlint/config-conventional": "^17.4.4",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fontsource/roboto": "^4.5.8",
