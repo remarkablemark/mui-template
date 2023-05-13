@@ -1,7 +1,6 @@
 # mui-template
 
-[![test](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml)
-[![lint](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml)
+[![build](https://github.com/remarkablemark/mui-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/build.yml)
 
 MUI Template.
 
@@ -10,7 +9,6 @@ This project is built with:
 - [MUI](https://mui.com/)
 - [Parcel](https://parceljs.org/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
-
 
 ## Prerequisites
 
