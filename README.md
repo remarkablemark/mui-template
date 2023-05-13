@@ -3,42 +3,20 @@
 [![test](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/test.yml)
 [![lint](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/lint.yml)
 
-[MUI](https://mui.com/) Template.
+MUI Template.
 
-<details>
-<summary>Stack</summary>
-
-Libraries:
+This project is built with:
 
 - [MUI](https://mui.com/)
-- [React](https://reactjs.org/)
-
-Tools:
-
 - [Parcel](https://parceljs.org/)
-- [ESLint](https://eslint.org/)
-
-Testing:
-
-- [Jest](https://jestjs.io/)
-
-Language:
-
-- [TypeScript](https://www.typescriptlang.org/)
-
-Hosting:
-
 - [Cloudflare Pages](https://pages.cloudflare.com/)
-  - https://mui-template.pages.dev/
-- [GitHub Pages](https://pages.github.com/)
-  - https://remarkablemark.github.io/mui-template/
 
-</details>
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/)
-- [Yarn 1](https://classic.yarnpkg.com/lang/en/)
+- [Node.js](https://nodejs.org/)
+- [nvm](https://github.com/nvm-sh/nvm#readme)
+- [Yarn 1](https://classic.yarnpkg.com/en/docs/install)
 
 ## Install
 
@@ -47,6 +25,12 @@ Clone the repository:
 ```sh
 git clone https://github.com/remarkablemark/mui-template.git
 cd mui-template
+```
+
+Use the project's Node.js version:
+
+```sh
+nvm use
 ```
 
 Install the dependencies:
