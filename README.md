@@ -1,6 +1,7 @@
 # mui-template
 
 [![build](https://github.com/remarkablemark/mui-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/build.yml)
+[![cypress](https://github.com/remarkablemark/mui-template/actions/workflows/cypress.yml/badge.svg)](https://github.com/remarkablemark/mui-template/actions/workflows/cypress.yml)
 
 MUI Template.
 
