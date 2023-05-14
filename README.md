@@ -8,7 +8,7 @@ MUI Template.
 This project is built with:
 
 - [MUI](https://mui.com/)
-- [Parcel](https://parceljs.org/)
+- [Vite](https://vitejs.dev/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Prerequisites

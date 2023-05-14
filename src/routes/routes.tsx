@@ -1,8 +1,7 @@
 import { Route } from 'react-router-dom';
-
-import Layout from '~/src/components/Layout';
-import ErrorBoundary from '~/src/pages/ErrorBoundary';
-import Home from '~/src/pages/Home';
+import Layout from 'src/components/Layout';
+import ErrorBoundary from 'src/pages/ErrorBoundary';
+import Home from 'src/pages/Home';
 
 const routes = (
   <Route path="/" element={<Layout />}>
