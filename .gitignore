@@ -8,8 +8,7 @@
 # testing
 /coverage
 
-# parcel
-/.parcel-cache
+# vite
 /dist
 
 # misc

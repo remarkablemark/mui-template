@@ -1,7 +1,6 @@
 import { screen } from '@testing-library/react';
 import { useRouteError } from 'react-router-dom';
-
-import { renderWithProviders } from '~/test';
+import { renderWithProviders } from 'test/helpers';
 
 import ErrorBoundary from './ErrorBoundary';
 
