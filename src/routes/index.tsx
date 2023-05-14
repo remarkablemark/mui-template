@@ -1,7 +1,7 @@
 import { Route } from 'react-router-dom';
 
-import Layout from '../components/Layout';
-import Home from '../pages/Home';
+import Layout from '~/src/components/Layout';
+import Home from '~/src/pages/Home';
 
 const routes = (
   <Route path="/" element={<Layout />}>
