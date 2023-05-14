@@ -1,6 +1,10 @@
 import { render } from '@testing-library/react';
 import type { ReactElement, ReactNode } from 'react';
+import { Provider } from 'react-redux';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom';
+import { resetActions, store } from 'src/store';
+
+export { store };
 
 export let router: ReturnType<typeof createMemoryRouter>;
 
@@ -17,7 +21,11 @@ function wrapper(props: { children?: ReactNode }) {
   ];
 
   router = createMemoryRouter(routes);
-  return <RouterProvider router={router} />;
+  return (
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
+  );
 }
 
 /**
@@ -25,4 +33,8 @@ function wrapper(props: { children?: ReactNode }) {
  */
 export function renderWithProviders(ui: ReactElement) {
   return render(ui, { wrapper });
+}
+
+export function resetStore() {
+  resetActions.forEach((resetAction) => store.dispatch(resetAction()));
 }
