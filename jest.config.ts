@@ -13,14 +13,14 @@ const jestConfig: JestConfigWithTsJest = {
   moduleNameMapper: {
     '^src/(.*)$': '<rootDir>/src/$1',
     '^test/(.*)$': '<rootDir>/test/$1',
-    '\\.(css|less|sass|scss)$': '<rootDir>/config/jest/__mocks__/styleMock.js',
+    '\\.(css|less|sass|scss)$': '<rootDir>/test/__mocks__/styleMock.js',
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-      '<rootDir>/config/jest/__mocks__/fileMock.js',
-    '\\.svg$': '<rootDir>/config/jest/__mocks__/svgMock.js',
+      '<rootDir>/test/__mocks__/fileMock.js',
+    '\\.svg$': '<rootDir>/test/__mocks__/svgMock.js',
   },
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>/config/jest/setupTests.ts'],
+  setupFilesAfterEnv: ['<rootDir>/test/setupTests.ts'],
 };
 
 export default jestConfig;
