@@ -7,8 +7,8 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <br />
       <Container component="main">
+        <br />
         <Outlet />
       </Container>
     </>
