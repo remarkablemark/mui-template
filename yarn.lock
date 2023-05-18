@@ -321,10 +321,10 @@
     minimatch "^3.0.4"
     node-hook "^1.0.0"
 
-"@badeball/cypress-cucumber-preprocessor@^17.1.0":
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/@badeball/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-17.1.0.tgz#5f97e59a231d5259ad96dbfd15980094fb9dce11"
-  integrity sha512-68RhMZFQHEHiiUZT7VjJKNQ8OdP16SsVnpPfi3QI96LJ+m0R4nt51JFkqOeXo9Vd/5/hRq29EEYR5pBa1YAMug==
+"@badeball/cypress-cucumber-preprocessor@^17.1.1":
+  version "17.1.1"
+  resolved "https://registry.yarnpkg.com/@badeball/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-17.1.1.tgz#49e30318231e3e38cccba53c6c2b71e4fbfae2c8"
+  integrity sha512-I+aMg73B8tjiHA6pq3dM/wyieGwuZ+GPHU5tq9LrTJUR2NVmXzO8HTTshS6eqrMbM2Mm6H2djv1Twtp7/EJVtg==
   dependencies:
     "@badeball/cypress-configuration" "^6.0.0"
     "@cucumber/cucumber" "^9.1.0"
@@ -344,6 +344,7 @@
     esbuild "^0.17.18"
     glob "^10.2.2"
     is-path-inside "^3.0.3"
+    seedrandom "^3.0.5"
     source-map "^0.7.4"
     uuid "^9.0.0"
 
@@ -2626,17 +2627,7 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cosmiconfig@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.0.0.tgz#e9feae014eab580f858f8a0288f38997a7bebe97"
-  integrity sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==
-  dependencies:
-    import-fresh "^3.2.1"
-    js-yaml "^4.1.0"
-    parse-json "^5.0.0"
-    path-type "^4.0.0"
-
-cosmiconfig@^8.1.3:
+cosmiconfig@^8.0.0, cosmiconfig@^8.1.3:
   version "8.1.3"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.1.3.tgz#0e614a118fcc2d9e5afc2f87d53cd09931015689"
   integrity sha512-/UkO2JKI18b5jVMJUp0lvKFMpa/Gye+ZgZjKD+DGEN9y7NRcf/nK1A0sp67ONmKtnDCNMS44E6jrk0Yc3bDuUw==
@@ -5873,6 +5864,11 @@ seed-random@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/seed-random/-/seed-random-2.2.0.tgz#2a9b19e250a817099231a5b99a4daf80b7fbed54"
   integrity sha512-34EQV6AAHQGhoc0tn/96a9Fsi6v2xdqe/dMUwljGRaFOzR3EgRmECvD0O8vi8X+/uQ50LGHfkNu/Eue5TPKZkQ==
+
+seedrandom@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
+  integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
 
 "semver@2 || 3 || 4 || 5":
   version "5.7.1"
