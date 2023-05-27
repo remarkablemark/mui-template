@@ -18,6 +18,7 @@ const jestConfig: JestConfigWithTsJest = {
       '<rootDir>/test/__mocks__/fileMock.js',
     '\\.svg$': '<rootDir>/test/__mocks__/svgMock.js',
   },
+  modulePathIgnorePatterns: ['src/config'],
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/test/setupTests.ts'],
