@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly NODE_ENV: 'development' | 'staging' | 'production';
+  readonly VITE_NODE_ENV: 'development' | 'staging' | 'production';
 }
 
 interface ImportMeta {
