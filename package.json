@@ -14,7 +14,7 @@
     "preview": "vite preview",
     "start": "vite --open",
     "test": "jest",
-    "test:ci": "CI=true jest --coverage --colors",
+    "test:ci": "jest --ci --coverage --colors",
     "test:watch": "jest --watch"
   },
   "dependencies": {
