@@ -1,1 +1,1 @@
-export * from './userSlice';
+export { userSlice } from './userSlice';

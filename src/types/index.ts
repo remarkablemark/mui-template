@@ -1,4 +1,2 @@
-export interface User {
-  email: string;
-  id: string;
-}
+/* istanbul ignore file */
+export * from './user';
