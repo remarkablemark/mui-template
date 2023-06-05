@@ -43,7 +43,7 @@
     "@types/jest": "^29.5.2",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.9",
-    "@vitejs/plugin-react-swc": "^3.3.1",
+    "@vitejs/plugin-react-swc": "^3.3.2",
     "cypress": "^12.13.0",
     "cypress-cucumber-steps": "^2.1.0",
     "eslint": "^8.42.0",
