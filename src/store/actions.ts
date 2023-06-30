@@ -1,7 +1,8 @@
-import { userSlice } from './slices';
+import { snackbarSlice, userSlice } from './slices';
 
 export const actions = {
+  ...snackbarSlice.actions,
   ...userSlice.actions,
 };
 
-export const resetActions = [actions.resetUser];
+export const resetActions = [actions.resetSnackbar, actions.resetUser];
