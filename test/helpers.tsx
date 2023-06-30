@@ -8,7 +8,7 @@ export { store };
 
 export let router: ReturnType<typeof createMemoryRouter>;
 
-function wrapper(props: { children?: ReactNode }) {
+export function wrapper(props: { children?: ReactNode }) {
   const routes = [
     {
       path: '/',
