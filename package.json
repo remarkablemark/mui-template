@@ -46,7 +46,7 @@
     "@vitejs/plugin-react-swc": "^3.3.2",
     "cypress": "^12.17.4",
     "cypress-cucumber-steps": "^2.10.0",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-tsdoc": "^0.2.17",
