@@ -12,7 +12,7 @@ it('renders heading link', () => {
   renderWithProviders(<Header />);
   expect(screen.getByRole('link', { name: 'MUI Template' })).toHaveAttribute(
     'href',
-    '/'
+    '/',
   );
 });
 
@@ -20,6 +20,6 @@ it('renders GitHub link', () => {
   renderWithProviders(<Header />);
   expect(screen.getByLabelText('Open GitHub repository')).toHaveAttribute(
     'href',
-    'https://github.com/remarkablemark/mui-template'
+    'https://github.com/remarkablemark/mui-template',
   );
 });

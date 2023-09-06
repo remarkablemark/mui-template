@@ -6,7 +6,7 @@ import Home from './Home';
 it('renders home', () => {
   renderWithProviders(<Home />);
   expect(screen.getByText(/Welcome/)).toHaveTextContent(
-    'Welcome to MUI Template!'
+    'Welcome to MUI Template!',
   );
 });
 
@@ -14,6 +14,6 @@ it('renders GitHub link', () => {
   renderWithProviders(<Home />);
   expect(screen.getByText('MUI Template')).toHaveAttribute(
     'href',
-    'https://github.com/remarkablemark/mui-template'
+    'https://github.com/remarkablemark/mui-template',
   );
 });
