@@ -25,16 +25,16 @@ export default function Header() {
             </Link>
           </Box>
 
-          <Link
+          <IconButton
             aria-label="Open GitHub repository"
             color="inherit"
-            component={IconButton}
+            component={Link}
             href="https://github.com/remarkablemark/mui-template"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GitHubIcon />
-          </Link>
+          </IconButton>
         </Toolbar>
       </Container>
     </AppBar>
