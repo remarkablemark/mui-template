@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          cache: yarn
+          cache: npm
           node-version-file: .nvmrc
 
       - name: Cypress run
@@ -21,7 +21,7 @@ jobs:
         with:
           browser: chrome
           # https://github.com/cypress-io/github-action/issues/879#issuecomment-1519045733
-          start: yarn vite --host
+          start: npx vite --host
           wait-on: 'http://localhost:5173'
 
       - name: Record failed screenshots

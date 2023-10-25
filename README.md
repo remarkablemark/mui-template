@@ -15,7 +15,7 @@ This project is built with:
 
 - [Node.js](https://nodejs.org/)
 - [nvm](https://github.com/nvm-sh/nvm#readme)
-- [Yarn 1](https://classic.yarnpkg.com/en/docs/install)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Install
 
@@ -35,14 +35,14 @@ nvm use
 Install the dependencies:
 
 ```sh
-yarn
+npm install
 ```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.
 
@@ -52,7 +52,7 @@ The page will reload if you make edits.
 
 You will also see any errors in the console.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `dist` folder.
 
@@ -62,11 +62,11 @@ The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed!
 
-### `yarn lint`
+### `npm run lint`
 
 Runs ESLint.
 
-### `yarn test`
+### `npm test`
 
 Runs Jest tests.
 
