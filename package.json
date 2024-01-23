@@ -4,7 +4,7 @@
   "description": "MUI Template",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
-    "build": "vite build",
+    "build": "npm run clean && vite build",
     "clean": "rm -rf dist",
     "cypress:open": "cypress open",
     "lint": "eslint --ignore-path .gitignore .",
