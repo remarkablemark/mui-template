@@ -4,11 +4,11 @@ import { defineConfig } from 'vite';
 import { createHtmlPlugin } from 'vite-plugin-html';
 
 export default defineConfig({
+  plugins: [createHtmlPlugin(), react()],
   resolve: {
     alias: {
       src: resolve(__dirname, 'src'),
       test: resolve(__dirname, 'test'),
     },
   },
-  plugins: [createHtmlPlugin(), react()],
 });
