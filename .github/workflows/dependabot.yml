@@ -1,6 +1,10 @@
 name: dependabot
 on: pull_request_target
 
+concurrency:
+  group: ${{ github.workflow_ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
