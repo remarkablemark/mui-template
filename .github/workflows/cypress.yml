@@ -2,7 +2,7 @@ name: cypress
 on: [push, pull_request]
 
 concurrency:
-  group: ${{ github.workflow_ref }}
+  group: ${{ github.workflow_ref }}-${{ github.event_name }}
   cancel-in-progress: true
 
 jobs:
