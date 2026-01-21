@@ -24,7 +24,7 @@ jobs:
           node-version-file: .nvmrc
 
       - name: Cypress run
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           browser: chrome
           # https://github.com/cypress-io/github-action/issues/879#issuecomment-1519045733
