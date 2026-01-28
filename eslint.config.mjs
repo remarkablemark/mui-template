@@ -24,10 +24,7 @@ export default defineConfig([
       tsdoc,
     },
 
-    extends: [
-      eslint.configs.recommended,
-      tseslint.configs.recommended,
-    ],
+    extends: [eslint.configs.recommended, tseslint.configs.recommended],
 
     languageOptions: {
       globals: {
